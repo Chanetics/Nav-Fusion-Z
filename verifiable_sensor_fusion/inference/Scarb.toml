@@ -1,0 +1,11 @@
+[package]
+name = "inference"
+version = "0.1.0"
+edition = "2023_10"
+
+[dependencies]
+node_linear_weight = { path = "../initializers/node_linear_weight"} 
+node_linear_bias = { path = "../initializers/node_linear_bias"} 
+orion = { git = "https://github.com/gizatechxyz/orion.git", rev = "8ff7389" } 
+[lib]
+sierra-text = true
